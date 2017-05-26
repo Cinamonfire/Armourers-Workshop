@@ -1,0 +1,23 @@
+package riskyken.armourersWorkshop.common.addons;
+
+public class AddonMineFantasy2 extends ModAddon
+
+{
+  public AddonMineFantasy2() {
+    super("MineFantasy2", "MineFantasyII");
+  }
+  @Override
+  public void preInit()
+  {
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "sword");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "dagger");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "waraxe");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "mace");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "katana");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "greatsword");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "battleaxe");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "warhammer");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "halbeard");
+    addItemOverride(ModAddon.ItemOverrideType.SWORD, "lance");
+  }
+}
